@@ -39,7 +39,7 @@ Digital-Clock/
 
 
 
-## ⚡ How It Works
+## How It Works
 
 The JavaScript code:
 
@@ -49,11 +49,11 @@ The JavaScript code:
 
 ---
 
-## ▶️ Getting Started
+## Getting Started
 
 ### Clone the Repository
 
-git clone https://github.com/Timeless__i/digital-clock.git
+git clone https://github.com/aayushpandit67-byte/digital-clock.git
 
 
 ### Open the Project
