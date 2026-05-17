@@ -1,0 +1,64 @@
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DS-Digital', sans-serif;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e1e;
+    height: 150px;
+    width: 580px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 2px solid #4d3f88;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.time-box{
+    width: 110px;
+    text-align: center;
+}
+
+.time-box span{
+    display: block;
+    font-size: 80px;
+    color: #b7a7f7;
+}
+
+.time-box p{
+    font-size: 15px;
+    color: #777;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.divider{
+    width: 4px;
+    height: 70px;
+    background: linear-gradient(180deg, #0000, #4d3f88, #0000);
+    margin: 0 22px;
+}
+
+.ampm{
+    padding: 8px 14px;
+    border-radius: 4px;
+    background: #111;
+    color: #b7a7f7;
+    font-size: 18px;
+    border: 0.5px solid #4d3f88;
+    margin-left: 25px;
+}
